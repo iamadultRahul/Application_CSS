@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        #Firstname{
+           
+            background-color: red;
+        }
+
+        #Lastname{
+            background-color: greenyellow;
+        }
+
+        #mail{
+            background-color: brown;
+        }
+
+        #password{
+            background-color: blueviolet;
+        }
+        #con_password{
+            background-color: rgb(226, 43, 159);
+        }
+      
+
+
+    </style>
+</head>
+<body>
+    <form>
+    <label class="Firstname">
+        First Name:<input type="text" placeholder="Enter First name" id= Firstname required min="3" max="33" >
+    </label>
+    <br>
+    <label class="Lastname">
+        Last Name:<input type="text" placeholder="Enter Last name" id= Lastname required min="3" max="33" >
+    </label>
+    <br>
+    
+    <label class="mail">
+        Email:<input type="email" placeholder="pwskill@gmail.com" id= mail required min="6" max="20" >
+    </label>
+    <br>
+    <label class="password">
+        Password:<input type="password" placeholder="Password" id= password required min="10" max="20" >
+    </label>
+    <br>
+
+    <label class="con_password">
+        Confirm Password:<input type="password" placeholder="Confirm Password" id= con_password required min="10" max="33" >
+    </label>
+    <br>
+    <label class="age">Enter age:
+        <input type="age" placeholder="Age"  id="age" min="0" max="101">
+    </label>
+
+
+    <br>
+    <label for="">Gender:
+        <input type="radio" id="male" value="male" name="gender" checked/>
+    <label id="male">Male</label>
+    <input type="radio" id="Female" value="female" name="gender" checked/>
+    <label id="Female">Female</label>
+    <input type="radio" id="other" value="other" name="gender" checked/>
+    <label id="ohther">Other</label>
+    </label>
+      
+    <br>
+    Terms:
+    <input type="checkbox" required >I agree to terms and condition
+
+    <br>
+    <button class="reg">Register</button>
+</form>
+</body>
+</html>
